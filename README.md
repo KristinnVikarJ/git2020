@@ -7,4 +7,4 @@ Vefhönnun í tækniskólanum
 - [X] Verkefni 4 komið
 - [X] Verkefni 5 komið
 - [X] Verkefni 6 komið
-- [ ] Lokaverkefni komið
+- [X] Lokaverkefni komið
