@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif;
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 17% 5% auto 5%;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "aside main"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    padding: 1em;
+}
+
+header a {
+    display:block;
+    text-align: center;
+}
+
+header h1 {
+    display:block;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
+}
+
+aside {
+    background-image: linear-gradient(0.25turn, lightblue, white);
+    grid-area: aside;
+    padding: 0 1em;
+}
+
+main {
+    background-image: linear-gradient(0.75turn, lightblue, white);
+    grid-area: main;
+    padding: 0 1em;
+}
+
+main p {
+    color: orange;
+}
+
+footer {
+    background-image: linear-gradient(white, lightblue);
+    grid-area: footer;
+    text-align: center;
+}
+
+nav {
+    background-image: linear-gradient(lightblue, white);
+    grid-area: nav;
+    text-align: center;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+	display: flex;
+    flex-flow: row;
+}
+
+li{
+    display: inline;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+    text-align:justify;
+}
+
+blockquote {
+    text-align:justify;
+    padding: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

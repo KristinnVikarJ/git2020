@@ -1,0 +1,18 @@
+body{
+    max-width: 20em;
+    margin: 0em auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    margin: -25px 0 0 0;
+    font-size: 35px;
+}
+
+p, h1, h2{
+    text-align: center;
+}

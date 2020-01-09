@@ -1,0 +1,25 @@
+body {
+    max-width: 40em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bm1{
+    border: 2px solid green;
+    display: block;
+}
+
+.box{
+    color: red;
+    border: 4px solid red;
+    padding: 25px;
+    margin: 0 0 2em 0;
+    display: block;
+}
+
+.bm3{
+    color: blue;
+    border: 4px dashed blue;
+    padding: 25px;
+    display: block;
+}

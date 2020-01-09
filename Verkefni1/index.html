@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Verkefni 1</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            function ShowStyle(style)
+            {
+                var cssId = style;
+                if (!document.getElementById(cssId))
+                {
+                    var head  = document.getElementsByTagName('head')[0];
+                    var link  = document.createElement('link');
+                    link.id   = cssId;
+                    link.rel  = 'stylesheet';
+                    link.type = 'text/css';
+                    link.href = style;
+                    link.media = 'all';
+                    head.appendChild(link);
+                }
+            }
+
+            function ShowRainbow(){
+                ShowStyle("./styles.css");
+            }
+
+            function ShowCss(){
+                ShowStyle("./website.css");
+            }
+        </script>
+        <button onclick="ShowRainbow()">Breyta í regnboga</button>
+        <button onclick="ShowCss()">Sýna CSS</button>
+        <a href = "./lorem.html">Lorem Ipsum</a> 
+
+        <h1 class = "redText"> Verkefni 1.1 </h1>
+
+        <h1>Aðalfyrirsögn</h1>
+        <h2 class = "padding">Undirfyrirsögn</h2>
+        <h3 class = "padding">Millifyrirsögn</h3>
+        <h4 class = "padding">Áherslutexti</h4>
+        <p class = "padding">Body texti <b>- body texti er í sömu stærð og málsgrein</b> </p>
+        <h5 class = "padding">Undirmálstexti</h5>
+        <h6 class = "padding">Texti sem ekki á að lesa</h6>
+
+        <br>
+        <hr width = "95%">
+        <h1> Verkefni 1.2 </h1>
+        <h2 class = "padding">Imagine</h2>
+        <em>
+            <p class = "tab">
+                <b>Imagine</b> there's no heaven<br>
+                It's easy if you try<br>
+                No hell below us<br>
+                Above us only sky<br>
+                Imagine all the people<br>
+                Living for today... <br><br>
+
+                <b>Imagine</b> there's no countries<br>
+                It isn't hard to do<br>
+                Nothing to kill or die for<br>
+                And no religion too<br>
+                Imagine all the people<br>
+                Living life in <b>peace</b>...<br> 
+            </p>
+            
+            <p class = "tab" style="font-size: 12px">
+                © & ® Allur réttur áskilinn John Lennon
+            </p>
+        </em>
+
+        <br>
+        <hr width = "95%">
+        <h1> Verkefni 1.3 </h1>
+
+        <h1> Námskröfur </h1>
+        <ol>
+            <li><p>Nemandi skal ljúka 9 einingum á önn hið minnsta.</p></li>
+            <li>
+                <p>Heimilt er að víkja frá þessu ákvæði ef um er að ræða:</p>   
+                <ul>
+                    <li><p>Sérstaka erfiðleika í námi, svo sem lesröskun eða fötlun.</p></li>
+                    <li><p>Lokaönn í námi.</p></li>
+                    <li><p>Nemendur á námssamningi.</p></li>
+                    <li><p>Nemendur á fyrstu önn í námi.</p></li>
+                </ul>
+            </li>
+            <li><p>Nemandi sem fellur á önn fær aðeins heimild til innritunar á næstu önn hafi,hann haft meira en 70% mætingu á önninni og geri samning um ástundun og skólasókn.</p></li>
+            <li><p>Nemandi sem fallið hefur á tveimur önnum í röð eða þrem önnum samtals fær ekki skólavist á næstu önn.</p></li>
+            <li><p>Falli nemandi á önn á hann rétt á að láta þá áfanga standa þar sem hann hefur fengið einkunnina 5</p></li>
+        </ol>
+        <hr width = "95%">
+        <h1> Verkefni 1.4 </h1>
+        <h1> <b> ELVIS PRESTLEY KONUNGUR ROKKSINS </b> </h1>
+        <p class = "padding">
+            <em><b>Elvis Presley</b></em> fæddist 8. <sub>janúar</sub> 1935 í Tupelo, Mississipifylki í Bandaríkjunum. Fyrir
+            tónlistaráhugamenn má geta þess að önnur breiðskífa Nick Cave & The Bad Seeds heitir
+            <em>The Firstborn is Dead</em> sem vísar til þess að Elvis átti tvíburabróður sem fæddist andvana,
+            og fyrsta lag skífunnar heitir einmitt „Tupelo“ eftir fæðingarbæ Elvis.
+        </p>
+
+        <p class = "padding">
+            <b>Elvis</b> er opinberlega sagður hafa látist í Memphis, Tennessefylki, <sup>16. ágúst 1977</sup>, 42 ára að
+            aldri. Hann væri 76 ára gamall ef hann væri lifandi í dag (árið 2011). Samkvæmt
+            frásögnum náinna vina og samstarfsmanna Elvis, fannst hann látinn inni á baðherbergi á
+            setri sínu Graceland. Út frá því hafa sprottið ýmsar útgáfur af andlátsorðum hans og
+            örugglega allar skáldskapur.
+        </p>
+
+        <p class = "padding">
+            <b>Elvis</b> átti erfitt með svefn síðustu æviár sín og til að trufla ekki unnustu sína, Grace
+            Alden, í svefnherberginu, fór hann stundum inn á baðherbergi á kvöldin til að geta lesið í
+            friði. Þess vegna halda margir því fram að hans síðustu orð hafi verið: <em>„I think I’ll go to
+            the bathroom to read“</em> eða eitthvað í þá áttina
+        </p>
+        <hr width = "95%">
+        <br>
+    </body>
+</html> 

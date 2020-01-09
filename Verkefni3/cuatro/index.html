@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Verkefni 3</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href = "style1.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <img src="./Untitled.png" style = "width: 5%;"  id = "Image">
+        <header>
+            <h1>
+                <img src = "./netto.png" style = "width: 50%; height: 50%">
+            </h1>
+            <a href = "https://www.youtube.com/watch?v=vdVnnMOTe3Q">Myndband</a>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href = "./../uno/index.html">Venjulegt</a>
+                </li>
+                <li>
+                    <a href = "./../dos/index.html">Flogakast</a>
+                </li>
+                <li>
+                    <a href = "./../tres/index.html">Hrekkjavaka</a>
+                </li>
+                <li>
+                    <a href = "./../cuatro/index.html">Nettó</a>
+                </li>
+            </ul>
+        </nav>
+        <aside>
+            <a href = "./Untitled.png">A</a>
+            The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
+        </aside>
+        <script>
+            var a = 0;
+            var image = document.getElementById("Image");
+
+            function ButtonPress(){
+                setTimeout(function () {
+                    image.style.width = a + "%";
+                    a = a + 1;
+                    if(a <= 500){
+                        ButtonPress();
+                    }
+                }, 10)
+            }
+        </script>
+        <main>
+            <button onclick="ButtonPress()"> abc </button>
+            Nettó byggir á öflugri liðsheild og leggur áherslu á að starfsmenn búi yfir góðri faglegri þekkingu, áræðni og sveigjanleika. Unnið er markvisst starf innan fyrirtækisins til að viðhalda þeim gildum.
+
+Verslanir Nettó eru staðsettar á 16 stöðum á landinu. Smelltu hér til að sækja um starf hjá Nettó
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href = "">Google Fonts</a>
+                </li>
+                <li>
+                    <a href = "">Kerfisletur - System fonts</a>
+                </li>
+                <li>
+                    <a href = "">Litaval</a>
+                </li>
+                <li>
+                    <a href = "">© 2019 KVJ</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

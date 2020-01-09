@@ -1,0 +1,27 @@
+body {
+    max-width: 50em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.li1{
+    display: block;
+    border: 3px dashed green;
+    padding: 1em;
+    margin: 1em;
+}
+
+.li2{
+    display: inline;
+    border: 3px dashed blue;
+    color: red;
+    padding: 1em;
+    margin: 1em;
+}
+
+.li3{
+    display: inline-block;
+    border: 3px dashed red;
+    padding: 1em;
+    margin: 1em;
+}

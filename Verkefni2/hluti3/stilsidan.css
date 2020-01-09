@@ -1,0 +1,36 @@
+body{
+    width: 60em;
+    margin: auto;
+}
+
+p, h2{
+    padding: 5px;
+}
+
+.box{
+    display: block;
+    float: left;
+    border: 1px solid black;
+    width: 49.75%;
+}
+
+.athugid{
+    clear: both;
+    text-align: center;
+    background-color: yellow;
+}
+
+.group{
+    float: right;
+}
+
+.bigL{
+    font-size: 50px;
+    float: left;
+    padding: 15px;
+}
+.imgR{
+    float: right;
+    overflow: auto;
+    padding: 5px 10px 5px 20px;
+}

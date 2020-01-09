@@ -1,0 +1,71 @@
+body {
+    font-family: "Arial";
+    max-width: 50em;
+    outline: 2px solid blue;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+}
+
+b {
+    color: red; 
+}
+
+em {
+    font-family: "Arial";
+    color: blue;
+}
+
+ul {
+    color: green;
+}
+
+li {
+    margin: -10px;
+}
+
+.tab { 
+    margin-left: 65px; 
+}
+
+.padding {
+    padding-left: 15px;
+}
+
+.paddingright {
+    padding-right: 15px;
+}
+
+.paddingtop {
+    padding-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited { 
+    color: DeepSkyBlue;
+}
+
+a:hover{
+    background-color: DeepSkyBlue;
+    color: white;
+}
+
+a:active{
+    background-color: blue;
+    color: white;
+}

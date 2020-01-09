@@ -1,0 +1,138 @@
+* { box-sizing: border-box }
+
+body {
+    width: 100%;
+    background-color: rgb(2, 73, 153);
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font-family: 'Roboto', sans-serif;
+    font: 400 1em/1.5; /* samsett skipun: weight/height, size, family */ 
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: white;
+}
+
+.section-background{
+    color: black;
+}
+
+.topnav, .verkefni {
+    text-align: right;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gap-4 {
+    grid-gap: 4em
+}
+
+.section-background {
+    background-image: linear-gradient(rgb(255, 145, 0), yellow);
+}
+
+main blockquote {
+    margin: auto;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 30px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+.main p, .main h3, .main h1 {
+    color: black;
+}
+
+.main a {
+    color: rgb(255, 0, 0);
+}
+
+.main {
+    vertical-align: bottom;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.col1 {
+    background-color: rgb(255, 255, 97);
+}
+
+.col2 {
+    background-color: rgb(255, 204, 109);
+}
+
+.padd {
+    padding-bottom: 100px;
+}
+
+.padd2 {
+    padding-top: 100px;
+}
+
+.innermenu a {
+    text-decoration: none;
+    background-color: rgb(0, 255, 255);
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.topnav a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topbutt {
+    position: fixed;
+    right:20px;
+    bottom:20px;
+
+    color:white;
+    border:2px solid gray;
+    background-color: gray;
+
+    font-size: 20px;
+    text-decoration: none;
+
+    padding:1% 1.2%;
+    border-radius:50%;
+}
